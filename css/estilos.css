@@ -106,7 +106,7 @@ body{
 }
 #paisaje img:hover{
   transform: rotate(10deg);
-  box-shadow: #d5c75f;
+  box-shadow: 2px 2px 3px #82c3a6;
 }
 #retrato img{
   margin-right: 15px;
@@ -115,7 +115,7 @@ body{
 }
 #retrato img:hover{
   transform: translate(20px, 5px);
-  box-shadow: #d5c75f;
+  box-shadow: 2px 2px 3px #82c3a6;
 }
 .caja2 figcaption{
   font-size: 1.2em;
