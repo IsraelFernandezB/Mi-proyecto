@@ -55,7 +55,7 @@ body{
 }
 }
 @media screen and (min-width:900px){
-  .encabezado, .contenido{
+  .encabezado, .contenido, .pie, .galeria{
     width: 900px;
     margin: auto;
   }
@@ -130,7 +130,7 @@ body{
 table{
   margin: auto;
   text-align: left;
-  width: 800px;
+  max-width: 800px;
 }
 table th {
   font-size: 1.8em;
@@ -142,4 +142,32 @@ table td{
 table img{
   height: 1em;
   width: 1em;
+}
+.galeria{
+  background-color:  #d5c75f;
+  height: 400px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  border: 1px;
+}
+.galeria img{
+  width: 250px;
+  height:150px;
+  box-shadow: 2px 2px 3px #02010a;
+}
+#imagen1{
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
+#imagen2, #imagen4, #imagen6{
+  filter: grayscale(100%);
+  -webkit-filter:grayscale(100%);
+}
+#imagen3{
+  filter: sepia(90%);
+  -webkit-filter:sepia(90%);
 }
