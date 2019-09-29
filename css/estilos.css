@@ -17,8 +17,8 @@ body{
   flex-wrap: wrap;
   align-items: center;
 }
-.titulo{
-  color: white;
+.titulo, .titulo2, .titulo3{
+  color: #fff;
   text-shadow: 2px 2px 3px #02010a;
   font-size: 1em;
   margin-left: 2em;
@@ -27,7 +27,7 @@ body{
   margin-right: 2em;
 }
 .encabezado nav a{
-  color: white;
+  color: #fff;
   font-size: 1.4em;
   display: inline;
   padding: 8px;
@@ -162,7 +162,7 @@ body{
   100%{margin-top: 0%;}
 }
 @media screen and (max-width:900px){
-.titulo {
+.titulo, .titulo2, .titulo3{
   margin: auto;
   align-items: center;
   }
@@ -192,7 +192,7 @@ height: 80%;
 #paisaje, #retrato{
   width: auto;
   height: 200px;
-  border: 2px solid black;
+  border: 2px;
 }
 #paisaje img, #retrato img{
   margin: auto;
@@ -200,7 +200,18 @@ height: 80%;
   height: 200px;
 }
 .pie{
-  height: 900px;
+  height: 600px;
+}
+ul{
+  height: auto;
+  margin-left: 10px;
+}
+.galeria{
+  height: 1500px;
+}
+.galeria img{
+  width: 80%;
+  height: 200px;
 }
 }
 @media screen and (min-width:900px){
